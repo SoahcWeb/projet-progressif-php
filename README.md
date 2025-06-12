@@ -25,4 +25,4 @@ Ce projet est une application web réalisée en PHP dans le cadre d’un apprent
 
 1. Clonez le projet :
    ```bash
-   git clone https://github.com/TON_UTILISATEUR/projet-progressif-php.git
+   https://github.com/SoahcWeb/projet-progressif-php.git
