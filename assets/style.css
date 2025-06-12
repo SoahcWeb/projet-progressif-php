@@ -1,0 +1,132 @@
+/* Base */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête et pied de page */
+header, footer {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Section principale */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Titres */
+h1, h2 {
+    color: #34495e;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Formulaires */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button {
+    padding: 0.7rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Liens */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1c6ea4;
+}
+
+/* Messages d'erreur */
+.errors li {
+    color: red;
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+
+/* ✅ NAVIGATION personnalisée */
+nav {
+    background-color: #2c3e50;
+    padding: 1rem 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-list a:hover,
+.nav-list a.active {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+/* ✅ Message de bienvenue */
+.welcome {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #ecf0f1;
+}
+
+/* ✅ Pied de page */
+footer {
+    margin-top: 2rem;
+}
